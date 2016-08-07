@@ -1,0 +1,195 @@
+.rank {
+    background-image: url("../img/heroes/ranks.png");
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 64px;
+    position: relative;
+}
+
+.rank .history-rank-date {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;	
+    margin: 0;
+    padding: 0 10px;
+    position: absolute;	
+    top: 85px;
+    width: 100%;
+    -webkit-transition: color 0.25s ease;
+}
+
+.history-rank-date, .history-date{
+    text-align: center;
+    color: #010101;
+    display: block;
+    font-family: "Palatino Linotype", "Times New Roman", Times, serif;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.rank25 {background-position: 0 0;}
+.rank24 {background-position: -95px 0;}
+.rank23 {background-position: -190px 0;}
+.rank22 {background-position: -283px 0;}
+.rank21 {background-position: -386px 0;}
+.rank20 {background-position: 0 -87px;}
+.rank19 {background-position: -95px -87px;}
+.rank18 {background-position: -190px -87px;}
+.rank17 {background-position: -283px -87px;}
+.rank16 {background-position: -386px -87px;}
+.rank15 {background-position: 0 -168px;}
+.rank14 {background-position: -95px -168px;}
+.rank13 {background-position: -190px -168px;}
+.rank12 {background-position: -283px -168px;}
+.rank11 {background-position: -386px -168px;}
+.rank10 {background-position: 0 -252px;}
+.rank9 {background-position: -95px -252px;}
+.rank8 {background-position: -190px -252px;}
+.rank7 {background-position: -283px -252px;}
+.rank6 {background-position: -386px -252px;}
+.rank5 {background-position: 0 -335px;}
+.rank4 {background-position: -95px -335px;}
+.rank3 {background-position: -190px -335px;}
+.rank2 {background-position: -283px -335px;}
+.rank1 {background-position: -386px -335px;}
+
+.portraits {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background-repeat: no-repeat;
+	height: 159px;
+	font-size: 0;
+	/*left: 50%;*/
+	/*margin-left: -645px;*/
+	/*padding: 0 145px;*/
+	position: relative;
+	right: 0;
+	width: 111px;
+}
+.portraits .hero {
+	display: inline-block;
+	height: 127px;
+	position: relative;
+	top: 0;
+	vertical-align: top;
+	width: 111px;
+}
+
+.hero .portrait {
+	background-image: url("../img/heroes/hero-portraits.png");
+	background-repeat: no-repeat;
+	height: 85px;
+	left: 20px;
+	position: absolute;
+	top: 21px;
+	width: 72px;
+	z-index: 2;
+}
+
+.hero .portrait ~ .frame {
+	background-image: url("../img/heroes/hero-frame.png");
+	background-repeat: no-repeat;
+	height: 127px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 111px;
+	z-index: 1;
+}
+
+.hero.mage .portrait {
+	background-position: 0 0;
+}
+.hero.mage.is-active .portrait,
+.hero.mage .portrait:hover {
+	background-position: 0 -85px;
+}
+.hero.hunter .portrait {
+	background-position: -72px 0;
+}
+.hero.hunter.is-active .portrait,
+.hero.hunter .portrait:hover {
+	background-position: -72px -85px;
+}
+.hero.paladin .portrait {
+	background-position: -144px 0;
+}
+.hero.paladin.is-active .portrait,
+.hero.paladin .portrait:hover {
+	background-position: -144px -85px;
+}
+.hero.warrior .portrait {
+	background-position: -216px 0;
+}
+.hero.warrior.is-active .portrait,
+.hero.warrior .portrait:hover {
+	background-position: -216px -85px;
+}
+.hero.druid .portrait {
+	background-position: -288px 0;
+}
+.hero.druid.is-active .portrait,
+.hero.druid .portrait:hover {
+	background-position: -288px -85px;
+}
+.hero.warlock .portrait {
+	background-position: -360px 0;
+}
+.hero.warlock.is-active .portrait,
+.hero.warlock .portrait:hover {
+	background-position: -360px -85px;
+}
+.hero.shaman .portrait {
+	background-position: -432px 0;
+}
+.hero.shaman.is-active .portrait,
+.hero.shaman .portrait:hover {
+	background-position: -432px -85px;
+}
+.hero.priest .portrait {
+	background-position: -504px 0;
+}
+.hero.priest.is-active .portrait,
+.hero.priest .portrait:hover {
+	background-position: -504px -85px;
+}
+.hero.rogue .portrait {
+	background-position: -576px 0;
+}
+.hero.rogue.is-active .portrait,
+.hero.rogue .portrait:hover {
+	background-position: -576px -85px;
+}
+
+
+.hero.is-active .portrait ~ .frame,
+.hero .portrait:hover ~ .frame {
+	background-position: 0 -127px;
+}
+
+.hero.defeated .portrait ~ .frame,
+.hero.defeated .portrait:hover ~ .frame {
+	background-position: 0 -254px;
+}
+
+.hero .portrait ~ .deck {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	color: #010101;
+	display: block;
+	font-family: "Palatino Linotype", "Times New Roman", Times, serif;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 1;
+	margin: 0;
+	padding: 0 10px;
+	position: absolute;
+	text-align: center;
+	top: 125px;
+	width: 100%;
+	-webkit-transition: color 0.25s ease;
+}
+
+.hero .portrait:hover ~ .deck {
+	color: #ff0000;
+}

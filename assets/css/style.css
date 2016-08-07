@@ -1,0 +1,257 @@
+body {
+    background: url('../img/body-content-bg.jpg') repeat-y scroll 50% 0px transparent;
+    padding: 9px 0px;
+    position: relative;
+    font: 13px/1.5 Arial,sans-serif;
+    padding: 0px;
+    border: 0px none;
+    outline: 0px none;
+}
+#tournament-div *, #tournament-div *:before, #tournament-div *:after {
+    box-sizing: initial;
+    font:14px Arial;
+}
+#tournament-div .empty {background-color: #FCC;}
+#tournament-div .invalid {background-color: #FC6;}
+
+.table-history tr td{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.users-table tbody tr:hover{
+    background-color: #F1DEB3;
+}
+
+.history-gametype{
+    text-align: center;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+.form-error{
+    color: #f00;
+}
+
+.user-pseudo{
+    color: #FCD144;
+    text-shadow: 0px 0px 10px #000, 0px 0px 10px #000;
+    font-size: 20px;
+    font-family: "Bliz Quadrata",Times New Roman,Serif;
+}a .user-pseudo:hover{
+    color: #fff;    
+}
+
+header .rank-and-stars, header .rank-and-stars:hover{
+    font-size: 15px;
+    color: #FCD144;
+    cursor: default;
+}
+
+.user-stars{
+    /*couleur des étoiles dans lea topbar*/
+    color:#FF0;
+}
+
+/* user/all */
+.user-all-battletag{
+    color:#004E8A;
+}
+.user-all-number{
+    color:#9BACBD;
+    font-style: italic;
+    font-size: 10px;
+}
+.user-all-pseudo{
+    color: #FCD144;
+    text-shadow: 0px 0px 2px #000, 0px 0px 2px #000;
+    font-size: 16px;
+}
+.user-all-rank{
+    color: #fff;
+    text-shadow: 0px 0px 5px #000, 0px 0px 5px #000;
+    font-size: 14px;
+}
+.user-all-date{
+    font-size: 12px;
+}
+
+header{
+    background: url('../img/logo.png') no-repeat scroll center top transparent;
+    margin: 0px auto;
+    padding-top: 180px;
+    width: 1035px;
+    text-align: center;
+    position: relative;
+}
+
+    header h2 {
+        /*color: #EEDFBC;*/
+        color:#FFF;
+        font: 18px/60px "Open Sans Semibold",Arial;
+        text-shadow: 0px 0px 15px #000, 0px 0px 15px #000;
+    }
+    
+    .navigation {
+        background: url('../img/nav-bg.png') no-repeat scroll center top transparent;
+        margin-left: -580px;
+        width: 1160px;
+        height: 98px;
+        position: absolute;
+        bottom: 35px;
+        left: 50%;
+    }
+    
+    .menu {
+        margin: 32px 98px 0px;
+        background: url('../img/nav-button-bg.jpg') no-repeat scroll 37px top transparent;
+        height: 65px;
+        overflow: auto;
+        width: 965px;
+        z-index: 3;
+        position: relative;
+    }
+    header ol,header ul {
+        list-style-type: none;
+    }
+  
+.tips{
+    padding-top: 10px;
+    font: 13px/1.5 Arial,sans-serif;
+}
+
+.tips li{
+    list-style-image: url('../img/bullet.png');
+}
+
+.navigation ul {padding-left:40px; }
+.menu li a:hover { color: #ffeba5; }
+.menu li a:active { color: #ffffff; }
+
+.menu li.menu-1 a:hover { background-position: -3px -66px; }
+.menu li.menu-2 a:hover { background-position: -163px -66px; }
+.menu li.menu-3 a:hover { background-position: -323px -66px; }
+.menu li.menu-4 a:hover { background-position: -483px -66px; }
+.menu li.menu-5 a:hover { background-position: -643px -66px; }
+
+.menu li.menu-1 a.menu-active { background-position: 0 -132px; }
+.menu li.menu-2 a.menu-active { background-position: -163px -132px; }
+.menu li.menu-3 a.menu-active {  background-position: -323px -132px;  }
+.menu li.menu-4 a.menu-active { background-position: -483px -132px; }
+.menu li.menu-5 a.menu-active { background-position: -643px -132px; }
+
+ .menu a.menu-disabled { color:#4C160A; }
+
+    .menu li a:hover, .menu li a.menu-active {
+        background: url('../img/nav-button-bg.jpg') repeat scroll 0% 0% transparent;
+        color: #FFF;
+        text-decoration: none;
+    }
+    .menu li a {
+        color: #FCD144;
+        text-shadow: 0px 0px 10px #000, 0px 0px 10px #000;
+        display: block;
+        line-height: 60px;
+        font-weight: bold;
+        font-size: 20px;
+        font-family: "Bliz Quadrata",Times New Roman,Serif;
+    }
+    a {
+        color: #E22C14;
+        outline: 0px none;
+        text-decoration: none;
+    }
+    a:hover{
+        color: #000;
+    }
+    .menu li {
+        text-align: center;
+        width: 160px;
+        float: left;
+    }
+    .menu li a:hover, .menu li a.menu-active {
+        background: url('../img/nav-button-bg.jpg') repeat scroll 0% 0% transparent;
+        color: #FFF;
+        text-decoration: none;
+    }
+    
+   
+    
+    .body{
+        /*background-color: #FFF;*/
+/*        border: 1px solid #261308;*/
+        margin-left: auto;
+        margin-right: auto;
+        width: 1050px;
+        font: bold 24px/36px "Palatino Linotype","Times",serif;
+        position: relative; 
+        font-size: 16px;
+        font-family: "Open Sans Semibold",sans-serif;
+        font-weight: 600;
+    }
+    
+    .body h3 {
+        background: none repeat scroll 0% 0% rgba(217, 189, 143, 0.7);
+        box-sizing: border-box;
+        color: #000;
+        font-family: "Bliz Quadrata","Times New Roman",Times,serif;
+        font-size: 27px;
+        line-height: 1.2;
+        margin: 15px 0px 0px;
+        padding-left: 30px;
+    }
+    
+     h4 {
+        background: none repeat scroll 0% 0% #E8CFA2;
+        box-sizing: border-box;
+        color: #000;
+        font-family: "Bliz Quadrata","Times New Roman",Times,serif;
+        font-size: 22px;
+        line-height: 1.2;
+        margin: 15px 0px 10px;
+        padding-left: 15px;
+    }
+    
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+}
+
+.foot {
+    background: url('../img/footer-bg-modif.jpg') no-repeat scroll 50% 0px transparent;
+    min-height: 277px;
+    position: relative;
+}
+
+.foot-text{
+    margin: 0px auto;
+    /*width: 1160px;*/
+    position: relative;
+    top: 79px;
+    font: 10px "Lucida Sans Unicode",Arial,Helvetica,sans-serif;
+    color: #4A3C2C;
+    /*border-top: 1px solid #261308;*/
+    text-align: center;
+    clear: both;
+    padding: 10px 0px;
+}
+
+.foot-text p{font-size: 10px;}
+
+.maarti-footer{
+    color : #FFF;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
